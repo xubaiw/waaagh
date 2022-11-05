@@ -1,0 +1,39 @@
+(import foo "https://deno.land/std")
+(import (x y) "./a.wgh")
+(import (c d) "./b.js")
+
+(const b 1)
+(let a 1)
+(= a 1)
+
+`${2333}`
+
+"233"
+
+{ a: 1  b: "134" }
+
+{
+  name: "233",
+  addressName: "asdasd"
+}
+
+[1, 2, 3]
+[2 3 3]
+
+(let [a b] [1 2])
+(let [a, b] [1, 2])
+
+(let {a b} {a: 1 b:2})
+
+(await (fetch "https://google.com" , { method: "POST" }))
+
+(body.innerHTML)
+
+(.innerHTML body)
+(. body innerHTML)
+
+(Math.sqrt 1)
+
+(== a b)
+(=== a b)
+(&& 1 2)
