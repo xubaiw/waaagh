@@ -1,0 +1,6 @@
+(def hello
+  (fn ((the String greet))
+    (println 
+      (string-append "hello, " greet))))
+
+(hello)
